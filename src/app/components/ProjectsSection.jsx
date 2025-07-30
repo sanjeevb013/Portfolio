@@ -10,7 +10,7 @@ const projectsData = [
     title: "Near by places finder",
     description:
       "Nearby Places Finder project — a simple web app which build on Next.js that lets users find nearby places like hospitals, restaurants, parks, and cafes based on their current location! 🏥🍽️🏞️☕",
-    image: "/images/projects/project1.png",
+    image: "/Images/projects/project1.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/sanjeevb013/find-nearby-places",
     previewUrl: "https://github.com/sanjeevb013/find-nearby-places",
@@ -20,7 +20,7 @@ const projectsData = [
     title: "Portfolio",
     description:
       "This is a personal portfolio website designed which build on Next.js to showcase my skills, projects, and experience as a web developer. Built using modern technologies like Nextjs, CSS, and responsive design, it offers a clean and user-friendly interface. The site includes dedicated sections for about me, projects, contact, and resume download. It reflects my passion for front-end development and attention to UI/UX design.",
-    image: "/images/projects/project2.png",
+    image: "/Images/projects/project2.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/sanjeevb013/Portfolio",
     previewUrl: "https://sanjeev-portfolio-eta-12.vercel.app/"
@@ -30,7 +30,7 @@ const projectsData = [
     title: "FV Command Center",
     description:
       "FV Command Center is an admin-side web application built for a Vietnamese hospital, designed to manage and verify patient profiles efficiently. It enables administrators to assign Hospital Numbers (HN), publish health-related articles, and manage Terms and Conditions (T&C) content. The system ensures secure handling of user information with verification controls. Developed using React.js, it offers a responsive and intuitive interface for hospital staff.",
-    image: "/images/projects/project3.png",
+    image: "/Images/projects/project3.png",
     tag: ["All", "Web"],
     gitUrl: "https://myclnq.co/stage/fv-cmd/#/",
     previewUrl: "https://myclnq.co/stage/fv-cmd/#/"
@@ -40,7 +40,7 @@ const projectsData = [
     title: "Cash kar har kadam",
     description:
       "Cash Kar Har Kadam is a health rewards program integrated within the MyCLNQ platform, encouraging users to stay active and lead healthier lifestyles. Users earn rewards or cashback for every step they take, promoting daily movement and wellness. The initiative aims to make fitness both motivating and rewarding. It seamlessly tracks activity and engages users through a user-friendly interface.",
-    image: "/images/projects/project4.png",
+    image: "/Images/projects/project4.png",
     tag: ["All", "Web"],
     gitUrl: "https://cashkarharkadam.com/",
     previewUrl: "https://cashkarharkadam.com/"

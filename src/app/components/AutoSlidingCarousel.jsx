@@ -6,7 +6,7 @@ const AutoSlidingCarousel = () => {
 
   const slides = [
     {
-      img: "/images/myclnq.png", // Make sure this image exists
+      img: "/Images/myclnq.png", // Make sure this image exists
       title: "MyCLNQ Health – Your One-Stop Connected Healthcare Solution",
       experience: "1+ Years", // Experience added here
       description:
