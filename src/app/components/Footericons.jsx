@@ -10,8 +10,8 @@ export default function Footericons() {
                         </svg>
                     </a>
                     <a href="https://github.com/sanjeevb013" aria-label="Find us on Github" target="_blank" rel="noopener">
-           <svg className="w-10 h-10 text-white" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-  <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 
+                        <svg className="w-10 h-10 text-white" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 
   3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 
   0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61 
   -.546-1.387-1.333-1.757-1.333-1.757-1.09-.745.084-.729.084-.729 
@@ -24,9 +24,9 @@ export default function Footericons() {
   5.92.42.36.81 1.096.81 2.215 0 1.6-.015 2.89-.015 3.286 
   0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297 
   c0-6.627-5.373-12-12-12"/>
-</svg>
+                        </svg>
 
-        </a>    
+                    </a>
                 </div>
             </div>
 
