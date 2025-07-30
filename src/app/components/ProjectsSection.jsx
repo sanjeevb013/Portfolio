@@ -23,7 +23,7 @@ const projectsData = [
     image: "/images/projects/project2.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/sanjeevb013/Portfolio",
-    previewUrl: "https://github.com/sanjeevb013/Portfolio"
+    previewUrl: "https://sanjeev-portfolio-eta-12.vercel.app/"
   },
    {
     id: 3,
