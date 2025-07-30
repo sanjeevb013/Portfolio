@@ -10,7 +10,6 @@ import Question from "./components/Question";
 import Whyus from "./components/Whyus";
 import Topbutton from "./components/Topbutton";
 import AutoSlidingCarousel from "./components/AutoSlidingCarousel";
-import Pricing from "./components/Pricing";
 
 export default function Home() {
   return (
@@ -26,7 +25,6 @@ export default function Home() {
         <Question />
         <Whyus />
         <Topbutton />
-        <Pricing />
         <EmailSection />
       </div>
       <Footer />
