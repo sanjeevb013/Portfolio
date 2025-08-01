@@ -81,34 +81,41 @@ const ProjectsSection = () => {
           name="Web"
           isSelected={tag === "Web"}
         />
-        {/* <ProjectTag
-          onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
-        /> */}
       </div>
       <ul
         ref={ref}
         className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 md:gap-12 w-full"
       >
-        {filteredProjects.map((project, index) => (
-          <motion.li
-            key={index}
-            variants={cardVariants}
-            initial="initial"
-            animate={isInView ? "animate" : "initial"}
-            transition={{ duration: 0.3, delay: index * 0.4 }}
-          >
-            <ProjectCard
-              key={project.id}
-              title={project.title}
-              description={project.description}
-              imgUrl={project.image}
-              gitUrl={project.gitUrl}
-              previewUrl={project.previewUrl}
-            />
-          </motion.li>
-        ))}
+   {filteredProjects.map((project, index) => {
+  const isMobile = typeof window !== "undefined" && window.innerWidth < 768;
+
+  const cardContent = (
+    <motion.li
+      key={index}
+      variants={cardVariants}
+      initial="initial"
+      animate={isInView ? "animate" : "initial"}
+      transition={{ duration: 0.3, delay: index * 0.4 }}
+    >
+      <ProjectCard
+        key={project.id}
+        title={project.title}
+        description={project.description}
+        imgUrl={project.image}
+        gitUrl={project.gitUrl}
+        previewUrl={project.previewUrl}
+      />
+    </motion.li>
+  );
+
+  return isMobile ? (
+    <a href={project.gitUrl} target="_blank" rel="noopener noreferrer" key={index}>
+      {cardContent}
+    </a>
+  ) : (
+    cardContent
+  );
+})}
       </ul>
     </section>
   );
